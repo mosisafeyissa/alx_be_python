@@ -1,7 +1,6 @@
 # arithmetic_operations.py
 
 def perform_operation(num1: float, num2: float, operation: str):
-
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
@@ -10,7 +9,7 @@ def perform_operation(num1: float, num2: float, operation: str):
         return num1 * num2
     elif operation == 'divide':
         if num2 == 0:
-            return "Error: Division by zero is not allowed."
+            return "Error: Division by zero"
         return num1 / num2
     else:
-        return "Error: Invalid operation. Please choose 'add', 'subtract', 'multiply', or 'divide'."
+        return "Error: Invalid operation"
